@@ -6,10 +6,6 @@ use Illuminate\Http\Request;
 
 class AdminDashboardController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('admin'); // Menambahkan middleware admin ke controller
-    }
 
     public function index()
     {
